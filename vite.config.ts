@@ -29,8 +29,8 @@ export default defineConfig(() => ({
       base: '/',
       includeAssets: ['/favicon.png'],
       manifest: {
-        name: 'Gamba Demo',
-        short_name: 'Gamba',
+        name: 'SWEET GAMES',
+        short_name: 'SWTS',
         theme_color: '#FF5555',
         background_color: '#000000',
         display: 'standalone',

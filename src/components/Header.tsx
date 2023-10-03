@@ -13,8 +13,8 @@ export const Header: React.FC<React.PropsWithChildren> = ({ children }) => {
         </div>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <div className={styles.externalLinks}>
-            <a href="https://github.com/gamba-labs/gamba" target="_blank" rel="noreferrer">
-              Github
+            <a href="https://discord.gg/YGr6mBADQk" target="_blank" rel="noreferrer">
+              Discord
             </a>
             <a href="https://explorer.gamba.so" target="_blank" rel="noreferrer">
               Stats

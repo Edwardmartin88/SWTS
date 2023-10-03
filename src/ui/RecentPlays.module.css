@@ -37,7 +37,12 @@
 
 .amount.win {
   color: #3617e3;
-}¨
+}
+
+.amount.loss {
+  color: red;
+}
+
 
 .flares {
   display: flex;

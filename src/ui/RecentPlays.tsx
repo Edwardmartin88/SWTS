@@ -51,9 +51,10 @@ function RecentPlay({ time, signature, result, isSelf }: RecentPlayProps) {
         </span>
         made
         <span>
-          <span className={cx(styles.amount, win && styles.win)}>
-            {formatLamports(payout)} from {formatLamports(wager)}
+          <span className={cx(styles.amount, win ? styles.win : styles.loss)}>
+              {formatLamports(payout)} from {formatLamports(wager)}
           </span>
+
         </span>
         <span className={styles.flares}>
           {whaleScore > 0 && '🐋'.repeat(whaleScore)}
